@@ -73,12 +73,12 @@ MODEL_REPOSITORY = {
         "danny": {
             "name": "Danny (US English, Male)",
             "qualities": {
-                "medium": {
-                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/danny/medium/en_US-danny-medium.onnx?download=true",
-                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/danny/medium/en_US-danny-medium.onnx.json"
+                "low": {
+                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/danny/low/en_US-danny-low.onnx?download=true",
+                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/danny/low/en_US-danny-low.onnx.json"
                 }
             },
-            "sample_url": "https://rhasspy.github.io/piper-samples/en/en_US/danny/medium.mp3"
+            "sample_url": "https://rhasspy.github.io/piper-samples/en/en_US/danny/low.mp3"
         },
         "hfc_female": {
             "name": "HFC Female (US English, Female)",
@@ -123,12 +123,12 @@ MODEL_REPOSITORY = {
         "kathleen": {
             "name": "Kathleen (US English, Female)",
             "qualities": {
-                "medium": {
-                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/kathleen/medium/en_US-kathleen-medium.onnx?download=true",
-                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/kathleen/medium/en_US-kathleen-medium.onnx.json"
+                "low": {
+                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/kathleen/low/en_US-kathleen-low.onnx?download=true",
+                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/kathleen/low/en_US-kathleen-low.onnx.json"
                 }
             },
-            "sample_url": "https://rhasspy.github.io/piper-samples/en/en_US/kathleen/medium.mp3"
+            "sample_url": "https://rhasspy.github.io/piper-samples/en/en_US/kathleen/low.mp3"
         },
         "kristin": {
             "name": "Kristin (US English, Female)",
@@ -163,9 +163,17 @@ MODEL_REPOSITORY = {
         "lessac": {
             "name": "Lessac (US English, Female)",
             "qualities": {
+                "low": {
+                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/low/en_US-lessac-low.onnx?download=true",
+                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/lessac/low/en_US-lessac-low.onnx.json"
+                },
                 "medium": {
                     "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx?download=true",
                     "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx.json"
+                },
+                "high": {
+                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/high/en_US-lessac-high.onnx?download=true",
+                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/lessac/high/en_US-lessac-high.onnx.json"
                 }
             },
             "sample_url": "https://rhasspy.github.io/piper-samples/en/en_US/lessac/medium.mp3"
@@ -173,12 +181,12 @@ MODEL_REPOSITORY = {
         "libritts": {
             "name": "LibriTTS (US English, Mixed)",
             "qualities": {
-                "medium": {
-                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/libritts/medium/en_US-libritts-medium.onnx?download=true",
-                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/libritts/medium/en_US-libritts-medium.onnx.json"
+                "high": {
+                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/libritts/high/en_US-libritts-high.onnx?download=true",
+                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/libritts/high/en_US-libritts-high.onnx.json"
                 }
             },
-            "sample_url": "https://rhasspy.github.io/piper-samples/en/en_US/libritts/medium.mp3"
+            "sample_url": "https://rhasspy.github.io/piper-samples/en/en_US/libritts/high.mp3"
         },
         "libritts_r": {
             "name": "LibriTTS R (US English, Mixed)",
@@ -196,6 +204,10 @@ MODEL_REPOSITORY = {
                 "medium": {
                     "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/medium/en_US-ljspeech-medium.onnx?download=true",
                     "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/ljspeech/medium/en_US-ljspeech-medium.onnx.json"
+                },
+                "high": {
+                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx?download=true",
+                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json"
                 }
             },
             "sample_url": "https://rhasspy.github.io/piper-samples/en/en_US/ljspeech/medium.mp3"
@@ -223,9 +235,17 @@ MODEL_REPOSITORY = {
         "ryan": {
             "name": "Ryan (US English, Male)",
             "qualities": {
+                "low": {
+                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/low/en_US-ryan-low.onnx?download=true",
+                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/ryan/low/en_US-ryan-low.onnx.json"
+                },
                 "medium": {
                     "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/medium/en_US-ryan-medium.onnx?download=true",
                     "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/ryan/medium/en_US-ryan-medium.onnx.json"
+                },
+                "high": {
+                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high/en_US-ryan-high.onnx?download=true",
+                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_US/ryan/high/en_US-ryan-high.onnx.json"
                 }
             },
             "sample_url": "https://rhasspy.github.io/piper-samples/en/en_US/ryan/medium.mp3"
@@ -245,6 +265,10 @@ MODEL_REPOSITORY = {
         "alan": {
             "name": "Alan (UK English, Male)",
             "qualities": {
+                "low": {
+                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_GB/alan/low/en_GB-alan-low.onnx?download=true",
+                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_GB/alan/low/en_GB-alan-low.onnx.json"
+                },
                 "medium": {
                     "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_GB/alan/medium/en_GB-alan-medium.onnx?download=true",
                     "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_GB/alan/medium/en_GB-alan-medium.onnx.json"
@@ -278,6 +302,10 @@ MODEL_REPOSITORY = {
                 "medium": {
                     "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_GB/cori/medium/en_GB-cori-medium.onnx?download=true",
                     "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_GB/cori/medium/en_GB-cori-medium.onnx.json"
+                },
+                "high": {
+                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_GB/cori/high/en_GB-cori-high.onnx?download=true",
+                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_GB/cori/high/en_GB-cori-high.onnx.json"
                 }
             },
             "sample_url": "https://rhasspy.github.io/piper-samples/en/en_GB/cori/medium.mp3"
@@ -315,12 +343,12 @@ MODEL_REPOSITORY = {
         "southern_english_female": {
             "name": "Southern English Female (UK English, Female)",
             "qualities": {
-                "medium": {
-                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_GB/southern_english_female/medium/en_GB-southern_english_female-medium.onnx?download=true",
-                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_GB/southern_english_female/medium/en_GB-southern_english_female-medium.onnx.json"
+                "low": {
+                    "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_GB/southern_english_female/low/en_GB-southern_english_female-low.onnx?download=true",
+                    "config_url": "https://huggingface.co/rhasspy/piper-voices/raw/main/en/en_GB/southern_english_female/low/en_GB-southern_english_female-low.onnx.json"
                 }
             },
-            "sample_url": "https://rhasspy.github.io/piper-samples/en/en_GB/southern_english_female/medium.mp3"
+            "sample_url": "https://rhasspy.github.io/piper-samples/en/en_GB/southern_english_female/low.mp3"
         },
         "vctk": {
             "name": "VCTK (UK English, Mixed)",
@@ -1177,30 +1205,43 @@ class SUZAVoiceStudio(QMainWindow):
         
         if not voice_id:
             return
-
+            
         if language_code in MODEL_REPOSITORY and voice_id in MODEL_REPOSITORY[language_code]:
             voice_info = MODEL_REPOSITORY[language_code][voice_id]
             
             if "qualities" in voice_info:
-                for quality_id in voice_info["qualities"]:
-                    # Add quality options with user-friendly display names
-                    if quality_id == "x_low":
-                        display_name = "Extra Low"
-                    elif quality_id == "low":
-                        display_name = "Low"
-                    elif quality_id == "medium":
-                        display_name = "Medium"
-                    elif quality_id == "high":
-                        display_name = "High"
-                    else:
-                        display_name = quality_id.capitalize()
-                    
-                    self.quality_combo.addItem(display_name, quality_id)
-                    
-            # Set medium quality as default if available
-            medium_index = self.quality_combo.findData("medium")
-            if medium_index >= 0:
-                self.quality_combo.setCurrentIndex(medium_index)
+                # Get available qualities
+                available_qualities = list(voice_info["qualities"].keys())
+                
+                # Add quality options with user-friendly display names
+                for quality_id in QUALITIES:
+                    if quality_id in available_qualities:
+                        if quality_id == "x_low":
+                            display_name = "Extra Low"
+                        elif quality_id == "low":
+                            display_name = "Low"
+                        elif quality_id == "medium":
+                            display_name = "Medium"
+                        elif quality_id == "high":
+                            display_name = "High"
+                        else:
+                            display_name = quality_id.capitalize()
+                        
+                        self.quality_combo.addItem(display_name, quality_id)
+                
+                # Set appropriate default quality
+                if "medium" in available_qualities:
+                    self.quality_combo.setCurrentText("Medium")
+                elif "high" in available_qualities:
+                    self.quality_combo.setCurrentText("High")
+                elif "low" in available_qualities:
+                    self.quality_combo.setCurrentText("Low")
+                elif "x_low" in available_qualities:
+                    self.quality_combo.setCurrentText("Extra Low")
+                elif available_qualities:
+                    # If none of the standard qualities are available, use the first one
+                    first_quality = available_qualities[0]
+                    self.quality_combo.setCurrentText(first_quality.capitalize())
                 
         # Clear any custom model when voice changes
         self.clear_custom_model_on_dropdown_change()
@@ -1622,62 +1663,42 @@ class SUZAVoiceStudio(QMainWindow):
         self.status_label.setText(f"Playing sample of {voice_name}...")
         self.sample_button.setText("⏹ Stop")
         
-        # Construct the path to the sample file
-        sample_path = os.path.join(SAMPLES_DIR, "en", language_code, voice_id, "medium", "samples", "speaker_0.mp3")
-        print(f"Log: Looking for sample at {sample_path}")
-        
+        # First try to play from local samples
+        sample_path = os.path.join(SAMPLES_DIR, "en", language_code, voice_id, quality, "samples", "speaker_0.mp3")
         if os.path.exists(sample_path):
-            print(f"Log: Found sample file at {sample_path}")
-            
-            # Reset player error handler
             try:
-                self.sample_player.error.disconnect()
-            except:
-                pass
+                media_content = QMediaContent(QUrl.fromLocalFile(sample_path))
+                self.sample_player.setMedia(media_content)
+                self.sample_player.play()
+                print(f"Log: Playing local sample from {sample_path}")
+                return
+            except Exception as e:
+                print(f"Log: Error playing local sample: {str(e)}")
+                # Continue to try online sample if local fails
             
-            # Connect error handler
-            self.sample_player.error.connect(
-                lambda error_code: self.handle_sample_error(f"Error playing sample (code {error_code}): {self.sample_player.errorString()}")
-            )
+        # If local sample not found or failed, try online sample
+        if language_code in MODEL_REPOSITORY and voice_id in MODEL_REPOSITORY[language_code]:
+            voice_info = MODEL_REPOSITORY[language_code][voice_id]
             
-            # Connect finished handler to reset the button
-            self.sample_player.stateChanged.connect(self.handle_sample_playback_state)
-            
-            # Play the sample
-            content = QMediaContent(QUrl.fromLocalFile(sample_path))
-            self.sample_player.setMedia(content)
-            self.sample_player.play()
-        else:
-            # Fallback to online sample
-            if language_code in MODEL_REPOSITORY and voice_id in MODEL_REPOSITORY[language_code]:
-                if "sample_url" in MODEL_REPOSITORY[language_code][voice_id]:
-                    sample_url = MODEL_REPOSITORY[language_code][voice_id]["sample_url"]
-                    
-                    # Reset player error handler
-                    try:
-                        self.sample_player.error.disconnect()
-                    except:
-                        pass
-                    
-                    # Connect error handler
-                    self.sample_player.error.connect(
-                        lambda error_code: self.handle_sample_error(f"Error playing sample (code {error_code}): {self.sample_player.errorString()}")
-                    )
-                    
-                    # Connect finished handler to reset the button
-                    self.sample_player.stateChanged.connect(self.handle_sample_playback_state)
-                    
-                    # Play the sample
-                    print(f"Log: Local sample not found, using online URL: {sample_url}")
+            # Try to get sample URL for current quality
+            sample_url = voice_info.get("sample_url", "")
+            if sample_url:
+                try:
+                    # Create a QMediaContent from the URL
                     media_content = QMediaContent(QUrl(sample_url))
                     self.sample_player.setMedia(media_content)
                     self.sample_player.play()
-                else:
-                    self.status_label.setText(f"No sample available for {voice_id}")
-                    self.sample_button.setText("▶ Play Sample")
+                    print(f"Log: Playing online sample from {sample_url}")
+                    
+                    # Connect error handler
+                    self.sample_player.error.connect(lambda: self.status_label.setText(f"Error playing sample: {self.sample_player.errorString()}"))
+                except Exception as e:
+                    print(f"Log: Error playing online sample: {str(e)}")
+                    self.status_label.setText(f"Error playing sample: {str(e)}")
             else:
-                self.status_label.setText(f"No sample available for {voice_id}")
-                self.sample_button.setText("▶ Play Sample")
+                self.status_label.setText(f"No sample available for {voice_name}")
+        else:
+            self.status_label.setText(f"No sample available for {voice_name}")
     
     def handle_sample_error(self, error_message):
         """Handle errors during sample playback"""
